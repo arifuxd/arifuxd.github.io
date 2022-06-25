@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://www.arifuxd.me",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
