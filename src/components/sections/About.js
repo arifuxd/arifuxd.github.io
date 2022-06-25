@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import TrackVisibility from "react-on-screen";
 import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
@@ -78,9 +79,14 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <Link
+                      className="btn btn-default"
+                      to="/files/ariful_islam_cv.pdf"
+                      target="_blank"
+                      download="Ariful Islam CV-Graphics Designer.pdf"
+                    >
                       Download CV
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="spacer d-md-none d-lg-none"
