@@ -18,7 +18,7 @@ function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
-      <Header3 logoSource="/images/logo.svg" />
+      <Header3 logoSource="/images/logo.png" />
       <main className="content-3">
         <Element name="section-home">
           <ReactCursorPosition>

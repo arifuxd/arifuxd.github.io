@@ -5,10 +5,10 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Ariful Islam",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "Hi There, I'm Ariful Islam. I can create magic through designs. I can express my thoughts visually and I also love colors, I love playing with them. I would like to building something that didn’t exist before.",
 };
 
 const progressData = [

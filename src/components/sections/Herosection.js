@@ -26,14 +26,15 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Ariful Islam</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
                 "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Graphics Design Expert ",
+                "Motion Designer",
+                "Front-end Developer",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -46,28 +47,28 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.behance.net/arifuxd">
+                <i className="fab fa-behance"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://dribbble.com/arifuxd">
+                <i className="fab fa-dribbble"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://www.instagram.com/arifuxd/">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://twitter.com/arifuxd">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
             </li>
           </ul>
